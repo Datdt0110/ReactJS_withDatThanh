@@ -1,14 +1,14 @@
 // App.js
 import React from 'react';
-import Welcome from './components/Welcome';
+import Clothes from './components/Clothes'; // Lưu ý sửa lỗi chính tả từ 'Clothers' thành 'Clothes'
 import './App.css';
 import logo from './logo.svg';
 
-function App() {
+function App(props) {
   return (
     <div>
-      <Welcome />
-      <p>freetuts.net</p>
+      <Clothes name="Quần jean" type="Skinny" color="Đen" size="L">Clothes 1</Clothes>
+      <Clothes name="Váy" type="váy công chúa" color="Trắng" size="M">Clothes 2</Clothes>
     </div>
   );
 }
