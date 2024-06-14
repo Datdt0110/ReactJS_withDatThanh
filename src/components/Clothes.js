@@ -3,13 +3,13 @@ import React from 'react';
 
 function Clothes(props) {
     return (
-        <div>
-            <h2>{props.name}</h2>
-            <p>Type: {props.type}</p>
-            <p>Color: {props.color}</p>
-            <p>Size: {props.size}</p>
-            <p>{props.children}</p>
-        </div>
+        <tr>
+            <td>{props.name}</td>
+            <td>{props.type}</td>
+            <td>{props.color}</td>
+            <td>{props.size}</td>
+            <td>{props.children}</td>
+        </tr>
     );
 }
 
